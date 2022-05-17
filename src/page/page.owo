@@ -1,0 +1,329 @@
+<template lang="pug">
+.home
+  .top-bar
+    .w1200
+      h2 数造新实体
+      h3 2021-2022数字技术赋能实体经济案例库
+      .menu-bar.clear
+        .item.active
+          a(href="#") 优秀案例
+        .item
+          a(href="#") 行业研究
+        .item
+          a(href="#") 专家研讨
+        .item
+          a(href="#") 实地调研
+        .item
+          a(href="#") 新闻报道
+        .item
+          a(href="#") 成果报告
+        .item
+          a(href="#") 专家团队
+      .search-bar
+        input(tyle="text" placeholder="输入关键词搜索")
+        select
+          option 不限行业
+        select
+          option 不限技术类型
+        select
+          option 不限年份
+        .search-button 搜索
+      .hot-key
+        span 搜索热词：
+        a(href="#") 元宇宙
+        a(href="#") 云计算
+        a(href="#") 大数据
+        a(href="#") 人工智能
+  .w1200
+    h1.main-title 案例展示：标题标题标题标题标题标题标题
+    .video-show
+      video(src="http://flv3.people.com.cn/dev1/mvideo/vodfiles/2022/05/10/e5ac6f8f01367cff4fdf34c09a0a49f6_c.mp4" controls="controls" poster="http://flv3.people.com.cn/dev1/video/2022/5/10/61acaa6e9131418e76c4adec463ad033.jpg" style="width:100%;")
+      //- .info 大标题大标题大标题  18号微软雅黑   大标题大标题大标题  18号微软雅黑
+    .lr-box.clear
+      .fl
+        .input-bar
+          span 案例名称
+          input(tyle="text" placeholder="输入案例名称")
+        .input-bar
+          span 案例标签
+          input(tyle="text" placeholder="应用行业")
+          input(tyle="text" placeholder="技术类型")
+          input(tyle="text" placeholder="发布时间")
+        .input-bar
+          span 机构名称
+          input(tyle="text" placeholder="输入机构名称")
+        .lf-card
+          h3 基本情况
+          img(src="@|card.jpg|")
+          .text-box 文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍
+        .lf-card
+          h3 基本情况
+          img(src="@|card.jpg|")
+          .text-box 文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍
+        .lf-card
+          h3 基本情况
+          img(src="@|card.jpg|")
+          .text-box 文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍
+        .lf-card
+          h3 基本情况
+          img(src="@|card.jpg|")
+          .text-box 文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍
+
+      .fr
+        .exp-card
+          .exp-title 案例类型
+          ul
+            li
+              a(href="#") 标签分类
+            li
+              a(href="#") 标签分类
+            li
+              a(href="#") 标签分类
+            li
+              a(href="#") 标签分类
+            li
+              a(href="#") 标签分类
+          .more 查看更多
+        .exp-card
+          .exp-title 案例类型
+          ul
+            li
+              a(href="#") 标签分类
+            li
+              a(href="#") 标签分类
+            li
+              a(href="#") 标签分类
+            li
+              a(href="#") 标签分类
+            li
+              a(href="#") 标签分类
+            li
+              a(href="#") 标签分类
+            li
+              a(href="#") 标签分类
+            li
+              a(href="#") 标签分类
+          .more 查看更多
+        .card-box-2
+          a(href="#")
+            img(src="@|card-2.png|")
+        .card-box-2
+          a(href="#")
+            img(src="@|card-2.png|")
+        .card-box-2
+          a(href="#")
+            img(src="@|card-2.png|")
+        .card-box-2
+          a(href="#")
+            img(src="@|card-2.png|")
+        .card-box-2
+          a(href="#")
+            img(src="@|card-2.png|")
+        .card-box-2
+          a(href="#")
+            img(src="@|card-2.png|")
+        .card-box-2
+          a(href="#")
+            img(src="@|card-2.png|")
+        .card-box-2
+          a(href="#")
+            img(src="@|card-2.png|")
+        .card-box-2
+          a(href="#")
+            img(src="@|card-2.png|")
+  plug(_name="module2" _src="http://lamp.run:8082/76b2bc915abde1a1.owo")
+</template>
+
+<script>
+  module.exports = {
+
+  }
+</script>
+
+
+<style lang="less">
+.top-bar {
+  background-image: url('@|bg.png|');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 1920px 581px;
+  height: 581px;
+}
+.top-bar {
+  padding-top: 50px;
+  h2 {
+    font-size: 48px;
+    line-height: 100px;
+    color: white;
+    letter-spacing: 6px;
+  }
+  h3 {
+    color: white;
+    font-size: 40px;
+    font-weight: normal;
+    line-height: 58px;
+    letter-spacing: 3px;
+  }
+  .menu-bar {
+    background-color: rgba(54,68,157,0.8);
+    color: white;
+    line-height: 55px;
+    margin-top: 35px;
+    .item {
+      float: left;
+      color: white;
+      width: 171px;
+      text-align: center;
+      font-size: 24px;
+      line-height: 55px;
+      a {
+        color: white;
+      }
+    }
+    .active {
+      background-color: #5667ed;
+    }
+  }
+  .search-bar {
+    margin-top: 40px;
+    background-color: white;
+    height: 55px;
+    border-radius: 5px;
+    position: relative;
+    width: 850px;
+    .search-button {
+      position: absolute;
+      right: 0;
+      width: 100px;
+      height: 55px;
+      top: 0;
+      background-color: #4351c9;
+      color: white;
+      line-height: 55px;
+      text-align: center;
+      font-size: 18px;
+    }
+    input, select {
+      display: inline-block;
+      line-height: 35px;
+      text-align: center;
+      border: 1px solid #ccc;
+      height: 35px;
+      margin: 10px;
+      border-radius: 5px;
+      color: #333;
+      font-size: 15px;
+    }
+    input {
+      width: 200px;
+    }
+    select {
+      width: 140px;
+    }
+  }
+  .hot-key {
+    color: white;
+    font-size: 16px;
+    line-height: 40px;
+    margin-top: 20px;
+    a {
+      color: white;
+    }
+    span, a {
+      margin-right: 5px;
+    }
+  }
+}
+.video-show {
+  width: 1200px;
+  height: 675px;
+}
+.main-title {
+  font-size: 34px;
+  line-height: 80px;
+  text-align: center;
+  color: #333333;
+  margin-top: 20px;
+}
+.lr-box {
+  margin-top: 40px;
+  .fl {
+    width: 900px;
+    background-color: #eeefef;
+    border-radius: 10px;
+    padding: 20px;
+    .input-bar {
+      span {
+        font-size: 20px;
+        font-weight: bold;
+        color: #666;
+        margin-right: 10px;
+        line-height: 45px;
+      }
+      input {
+        height: 35px;
+        padding: 0 10px;
+        font-size: 16px;
+        border-radius: 5px;
+        margin-right: 20px;
+      }
+    }
+  }
+  .lf-card {
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 30px;
+    h3 {
+      line-height: 40px;
+      text-align: center;
+      font-size: 22px;
+      color: #666;
+      margin-bottom: 15px;
+    }
+    img {
+      display: block;
+      width: 100%;
+    }
+  }
+  .text-box {
+    font-size: 18px;
+    line-height: 26px;
+    margin-top: 20px;
+    color: #333;
+    height: 200px;
+    overflow: auto;
+  }
+  .exp-card {
+    width: 253px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    line-height: 40px;
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 20px;
+    .exp-title {
+      background-color: #4b5bbb;
+      color: white;
+      text-align: center;
+      line-height: 40px;
+      font-size: 16px;
+    }
+    a {
+      color: #333;
+    }
+    li {
+      border-bottom: 1px solid #ccc;
+      margin: 0 5px;
+      border-style: dashed;
+    }
+  }
+  .card-box-2 {
+    margin-bottom: 20px;
+    a, img {
+      display: block;
+    }
+  }
+}
+</style>

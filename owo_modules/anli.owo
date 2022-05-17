@@ -1,0 +1,65 @@
+<template lang="pug">
+.anli-box.clear
+  img.fl(src="@|card-4.png|" width="484" height="272")
+  .fr.anli-box-fr
+    h3 标题标题标题标题标题标题标题标题
+    p 文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍文字介绍
+    .info.clear
+      .time.fl 2022-02-22
+      .hy.fl 行业行业
+      .bq.fr 标签分类
+    .anli-show 案例1
+</template>
+
+<style lang="less">
+  .anli-box {
+    width: 900px;
+    height: 313px;
+    position: relative;
+    margin-bottom: 40px;
+    background-color: #eeefef;
+    padding: 20px;
+  }
+  img.fl {
+    display: block;
+  }
+  .anli-box-fr {
+    width: 355px;
+    h3 {
+      font-size: 20px;
+      line-height: 32px;
+      color: #646362;
+    }
+    p {
+      background-color: white;
+      padding: 10px;
+      font-size: 16px;
+      line-height: 28px;
+      margin-top: 10px;
+      border-radius: 5px;
+      color: #484747;
+      overflow: auto;
+      height: 204px;
+    }
+    .anli-show {
+      width: 72px;
+      height: 71px;
+      position: absolute;
+      right: -3px;
+      background-image: url('@|anli.png|');
+      color: white;
+      line-height: 33px;
+      padding-left: 31px;
+      top: -3px;
+    }
+  }
+  .info {
+    line-height: 20px;
+    margin-top: 6px;
+    color: #484747;
+    font-size: 14px;
+    .time {
+      width: 152px;
+    }
+  }
+</style>
